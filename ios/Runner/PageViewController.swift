@@ -30,7 +30,7 @@ class TabViewController : UIViewController {
         super.viewDidLoad()
         view.backgroundColor = UIColor.magenta
         view.addSubview(label)
-        label.text = "iOS \(index)"
+        label.text = "iOS tab \(index + 1)"
         label.textAlignment = .center
         label.textColor = UIColor.white
         label.font = label.font.withSize(16)
